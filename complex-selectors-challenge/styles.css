@@ -31,11 +31,8 @@ img {
     width: 25%;
 }
 
-.selected {
-    font-weight: bold;
-}
-
 .selected a {
+    font-weight: bold;
     color: black;
 }
 
@@ -49,11 +46,11 @@ a div:first-of-type {
     font-style: normal;
 }
 
-.seasons ul:last-child::after {
+#game-of-thrones ul:last-child::after {
     content: "*";
 }
 
-.seasons::after {
+li#game-of-thrones .seasons::after {
     content: "* Final Season";
     font-size: 0.7rem;
     color: #999;
